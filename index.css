@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#grid {
+    display: grid;
+    grid-template: 15vw 15vw 15vw / 15vw 15vw 15vw;
+}
+
+.box {
+    border: solid black 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
+
+.hidden {
+    display: none !important;
+}
